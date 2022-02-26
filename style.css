@@ -1,0 +1,333 @@
+@font-face {
+    font-family: Montserrat medium;
+    src: url(fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: Montserrat regular;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat semibold;
+    src: url(fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: Montserrat bold;
+    src: url(fonts/Montserrat-Bold.ttf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background-color: #FFCC31;
+}
+
+
+.container {
+    margin: 0 auto 0 auto;
+    align-items: center;
+    max-width: 1204px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.num {
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat semibold;
+    font-size: 25px;
+}
+
+
+.main {
+    background-color: #833AE0;
+}
+
+
+.title1 {
+    text-decoration: none;
+    font-family: Montserrat regular;
+    font-size: 30px;
+    line-height: 37px;
+    color: white;
+    max-width: 100%;
+    height: 167px;
+    margin-bottom: 106px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+.form_title1 {
+    font-family: Montserrat semibold;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    padding-top: 108px;
+} 
+
+
+.form {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 405px;
+}
+
+
+.form_text {
+    font-family: Montserrat medium;
+    font-size: 24px;
+    color: white;
+    background: none;
+    padding: 36 319 15 31;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #C8C8C8;
+    border-left: none;
+}
+
+
+.form__subtitle {
+    font-family: Montserrat semibold;
+    font-size: 18px;
+    color: white;
+    margin-top: 41px;
+}
+
+
+.form__subtitle__excretion {
+    font-family: Montserrat semibold;
+    font-size: 18px;
+    color: #FFCC31;
+}
+
+
+.form__subtitle2 {
+    font-family: Montserrat semibold;
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.form__button {
+    font-family: Montserrat semibold;
+    font-size: 24px;
+    color: #833AE0;
+    background: #FFCC31;
+    width: 449px;
+    height: 75px;
+    border-radius: 20px;
+    margin-top: 70px;
+    border: none;
+}
+
+
+.main_site__img {
+    width: 510px;
+    height: 261px;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.main_site__button {
+    font-family: Montserrat semibold;
+    font-size: 24px;
+    color: #833AE0;
+    background: #FFCC31;
+    width: 438px;
+    height: 75px;
+    border-radius: 20px;
+    margin-top: 80px;
+    border: none;
+}
+
+
+.second_screen {
+    background: linear-gradient(to bottom, #833AE0, #561E83);
+    max-height: 416px;
+}
+
+
+.second_screen__title {
+    font-family: Montserrat bold;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.second_screen__science {
+    max-width: 389px;
+    max-height: 267px;
+    margin-top: 43px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+
+.second_screen__science__img {
+    width: 266px;
+    height: 102px;
+    margin-left: 52px;
+}
+
+
+.second_screen__science__text {
+    text-decoration: none;
+    font-family: Montserrat semibold;
+    font-size: 18px;
+    color: white;
+    margin-top: 49px;
+}
+
+
+.second_screen__pumping {
+    max-width: 389px;
+    max-height: 296px;
+    margin-top: 43px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+
+.second_screen__pumping__img {
+    width: 206px;
+    height: 159px;
+    margin-left: 94px;
+}
+
+
+.second_screen__pumping__text {
+    text-decoration: none;
+    font-family: Montserrat semibold;
+    font-size: 18px;
+    color: white;
+}
+
+
+.second_screen__think_critically {
+    max-width: 389px;
+    max-height: 258px;
+    margin-top: 43px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+
+.second_screen__think_critically__img {
+    width: 261px;
+    height: 110px;
+}
+
+
+.second_screen__think_critically__text {
+    text-decoration: none;
+    font-family: Montserrat semibold;
+    font-size: 18px;
+    color: white;
+    margin-top: 45px;
+}
+
+
+.footer {
+    background-color: #FFCC31;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+
+.container_footer {
+    width: 1600px;
+    height: 195;
+    margin-left: 37px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container_connection {
+    width: 800px;
+    height: 195px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.container_connection__insta {
+    margin-right: 47px;
+    width: 81px;
+    height: 82px;
+}
+
+
+.container_connection__whatssap {
+    margin-right:  47px;
+    width: 77px;
+    height: 81px;
+}
+
+
+.container_connection__vk {
+    margin-right: 80px;
+    width: 82px;
+    height: 81px;
+}
+
+
+.container_footer__adres {
+    text-decoration: none;
+    font-family: Montserrat medium;
+    font-size: 25px;
+    color: #833AE0;
+}
+
+
+.copyright {
+    text-decoration: none;
+    font-family: Montserrat medium;
+    font-size: 24px;
+    color: black;
+    width: 359.4px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    align-self: flex-start;
+}
+
+
+.br {
+    line-height: 24px;
+}
+
+
+.footrr__number {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.number {
+    text-decoration: none;
+    font-family: Montserrat semibold;
+    font-size: 25px;
+}
